@@ -13,6 +13,7 @@ header {
     flex-direction: row;
     align-items: center;
     text-align: center;
+    justify-content: center;
     height: 100dvh;
     width: 100dvw;
 }
@@ -26,6 +27,33 @@ header {
     align-items: center;
     text-align: center;
     margin: auto;
+    justify-content: center;
+    gap: 3.5%;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    width: 57%;
+    height: 5%;
+}
+
+.inputLogo {
+    width: 15%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#email,
+#password {
+    width: 85%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 #heroImage {
@@ -38,6 +66,10 @@ h1 {
     color: rgb(0, 0, 0);
     font-weight: bolder;
     font-size: 3rem;
+}
+
+p1 {
+    width: 60%;
 }
 
 @media all and (max-width:450px) {
