@@ -73,7 +73,7 @@ p1 {
 }
 
 @media all and (max-width:450px) {
-    abcd {
+    a {
         font-size: 0.80rem;
     }
 }
