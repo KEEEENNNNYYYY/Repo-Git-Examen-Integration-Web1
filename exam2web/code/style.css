@@ -82,24 +82,23 @@ button {
     background-image: url("../Ressources/loginBackgroud.png");
     display: flex;
     flex-direction: column;
-
 }
 
 #planeImg {
-    width: 10%;
-    height: 10%;
-    display: flex;
-    position: absolute;
-    top: 25;
+    width: 8.25%;
+    height: 7.5%;
+    position: fixed;
+    top: 17.5dvh;
+    right: 20dvw;
+    background-color: green;
+
 }
 
 #loginImage {
     width: 80%;
-    height: 80%;
-    margin-top: 7.5%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 90%;
+    margin-top: 20%;
+    margin-left: 10%;
 }
 
 h1 {
